@@ -4,7 +4,7 @@ const md5=require("md5")
 const jwt = require("jsonwebtoken")
 const app = express();
 const PORT=3000;
-const {db, blogs} = require ('./models/index');
+const {db, blogs} = require ('./index');
 var Buffer = require('buffer/').Buffer
 
 
